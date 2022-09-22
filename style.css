@@ -28,13 +28,14 @@ body {
 }
 
 .btn {
-  padding: 1.2rem 2rem;
+  padding: 1.2rem 2.5rem;
   border-radius: 2rem;
   border: none;
   color: var(--pure-white);
   font-family: "Bai Jamjuree", sans-serif;
   font-weight: 600;
   cursor: pointer;
+  margin: 0 0.5rem;
 }
 
 .btn:hover {
@@ -73,7 +74,7 @@ body {
 main {
   align-self: center;
   text-align: center;
-  margin: 8rem 0;
+  margin: 10rem 0;
 }
 
 main .logo {
@@ -94,7 +95,7 @@ main p {
 /* Snippets Section */
 #snippets {
   align-self: center;
-  margin: 5rem 0;
+  margin: 6rem 0;
 }
 
 #snippets h2 {
@@ -124,7 +125,7 @@ main p {
 #clipboard {
   align-self: center;
   text-align: center;
-  margin: 5rem 0;
+  margin: 3rem 0;
 }
 
 #clipboard h2 {
@@ -142,6 +143,7 @@ main p {
 #supercharge {
   align-self: center;
   text-align: center;
+  margin: 3rem 0 0 0;
 }
 
 #supercharge h2 {
@@ -172,11 +174,16 @@ main p {
   margin: 10rem 3rem;
 }
 
+#companies .center {
+  display: flex;
+  align-items: center;
+}
+
 /* Find Us Section */
 #find-us {
   align-self: center;
   text-align: center;
-  margin-bottom: 10rem;
+  margin: 3rem 0 10rem 0;
 }
 
 #find-us h2 {
@@ -231,6 +238,11 @@ footer {
 
 .right-section li {
   list-style-type: none;
+}
+
+.filter-cyan:hover {
+  filter: invert(62%) sepia(15%) saturate(2367%) hue-rotate(122deg)
+    brightness(100%) contrast(70%);
 }
 
 @media screen and (max-width: 768px) {
