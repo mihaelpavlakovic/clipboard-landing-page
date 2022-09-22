@@ -28,7 +28,7 @@ body {
 }
 
 .btn {
-  padding: 0.8rem 2rem;
+  padding: 1.2rem 2rem;
   border-radius: 2rem;
   border: none;
   color: var(--pure-white);
@@ -238,6 +238,15 @@ footer {
     background: no-repeat top/100% url("./images/bg-header-mobile.png");
   }
 
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+  }
+
   .container {
     max-width: 80rem;
     margin: 0 2rem;
@@ -245,7 +254,7 @@ footer {
 
   .btn {
     width: 100%;
-    margin: 0.5rem auto;
+    margin-top: 1rem;
   }
 
   .flex {
@@ -263,7 +272,7 @@ footer {
   }
 
   main {
-    margin: 6rem 0 4rem 0;
+    margin: 6rem 0;
   }
 
   main .logo {
@@ -271,21 +280,21 @@ footer {
     margin-bottom: 3rem;
   }
 
-  main h1 {
-    width: 100%;
-  }
-
   main p {
-    max-width: 25rem;
-    margin: 0 auto 2rem auto;
+    margin-bottom: 2rem;
   }
 
   #snippets {
-    margin: 4rem 0;
+    margin: 6rem 0;
   }
 
   #snippets h2 {
     margin-bottom: 1rem;
+  }
+
+  #snippets p {
+    max-width: 45rem;
+    margin: 1rem 0 4rem 0;
   }
 
   #snippets img {
@@ -296,15 +305,8 @@ footer {
     text-align: center;
   }
 
-  #snippets p {
-    max-width: 45rem;
-    margin: 2.5rem 0;
-  }
-
   #snippets .item p {
     text-align: center;
-    line-height: 1.5rem;
-    margin-top: 0.8rem;
   }
 
   #clipboard {
@@ -330,7 +332,11 @@ footer {
   }
 
   #supercharge p {
-    margin-bottom: 1rem;
+    margin-bottom: 6rem;
+  }
+
+  #supercharge .card p {
+    margin-bottom: 0;
   }
 
   #companies {
@@ -338,6 +344,7 @@ footer {
   }
 
   #companies img {
+    width: 7rem;
     margin: 2rem 3rem;
   }
 
